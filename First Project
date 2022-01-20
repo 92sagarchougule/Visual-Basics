@@ -1,0 +1,12 @@
+Public Class Form1
+
+    Dim job As Integer = 20   
+    Dim work As String = "Want work as GIS developer"
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        MessageBox.Show("Hi complete this and work for jems")
+        MessageBox.Show(job)
+        MessageBox.Show(work)
+
+    End Sub
+End Class
